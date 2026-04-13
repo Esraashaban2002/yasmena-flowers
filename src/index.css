@@ -1,0 +1,83 @@
+:root {
+  --primary: #B71C1C;
+  --secondary: #E53935;
+  --pink: #F8BBD0;
+  --light-pink: #FCE4EC;
+  --accent: #F06292;
+  --white: #FFFFFF;
+  --text: #333333;
+}
+/* 🌸 Page Background */
+body {
+  background-color: var(--white);
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+   font-weight: 500;
+   padding-top: 80px;
+}
+
+/* 🔘 Filter Buttons */
+.filter-btn {
+  margin: 5px;
+  border: none;
+  background-color: var(--pink);
+  color: var(--text);
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.filter-btn:hover {
+  background-color: var(--secondary);
+  color: var(--white);
+}
+
+.filter-btn.active {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+/* 🧾 Card Styling */
+.product-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+}
+
+/* 🖼 Image */
+.product-card img {
+  height: 300px;
+  object-fit: cover;
+}
+
+/* 📝 Text */
+.category {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.price {
+  color: var(--secondary);
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* 🛒 Button */
+.add-btn {
+  background-color: var(--secondary);
+  color: var(--white);
+  border: none;
+  border-radius: 25px;
+  padding: 8px 20px;
+  transition: 0.3s;
+}
+
+.add-btn:hover {
+  background-color: var(--primary);
+}

@@ -1,0 +1,164 @@
+ [
+{
+    "id": 1,
+    "name": "Red Rose Bouquet",
+    "price": 250,
+    "category": "Love",
+    "stock": true,
+    "description": "Luxurious large bouquet of deep red roses with eucalyptus leaves",
+    "image": "/images/Red Rose Bouquet.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Classic Red Roses",
+    "price": 300,
+    "category": "Love",
+    "stock": true,
+    "description": "Elegant round bouquet of bright red roses tied with a red satin ribbon",
+    "image": "/images/Red Bouquet.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Heart-shaped Love",
+    "price": 200,
+    "category": "Love",
+    "stock": true,
+    "description": "Heart-shaped arrangement of red and white roses with baby breath",
+    "image": "/images/Red3.png"
+  },
+  {
+    "id": 4,
+    "name": "Happy Birthday Rose",
+    "price": 220,
+    "category": "Birthday",
+    "stock": true,
+    "description": "Soft pink roses with a 'Happy Birthday' card and elegant pink wrapping",
+    "image": "/images/birthday1.png"
+  },
+  {
+    "id": 5,
+    "name": "Purple Dream Bouquet",
+    "price": 280,
+    "category": "Birthday",
+    "stock": true,
+    "description": "Vibrant mix of purple carnations and pink roses in purple wrapping",
+    "image": "/images/birthday2.png"
+  },
+  {
+    "id": 6,
+    "name": "Ombré Roses & Pearls",
+    "price": 350,
+    "category": "Birthday",
+    "stock": true,
+    "description": "Stunning ombré transition from deep pink to white roses adorned with pearls",
+    "image": "/images/Ombré Roses Pearl Bouquet.png"
+  },
+  {
+    "id": 7,
+    "name": "Pure White Bridal",
+    "price": 300,
+    "category": "Wedding",
+    "stock": true,
+    "description": "Classic bridal bouquet of pure white roses with greenery",
+    "image": "/images/Wedding1.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Ivory Tulip Elegance",
+    "price": 320,
+    "category": "Wedding",
+    "stock": true,
+    "description": "Sophisticated bouquet of white tulips with crystal bead accents",
+    "image": "/images/Wedding2.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Soft Pink Wedding",
+    "price": 290,
+    "category": "Wedding",
+    "stock": true,
+    "description": "Gentle pink roses with baby breath and long white silk ribbons",
+    "image": "/images/Wedding3.jpg"
+  },
+{
+    "id": 10,
+    "name": "Pearls & Ivory Bridal Bouquet",
+    "price": 550,
+    "category": "Wedding",
+    "stock": true,
+    "description": "Exquisite bridal bouquet of white and champagne roses adorned with pearls",
+    "image": "/images/Wedding4.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Chocolate & Roses Box",
+    "price": 450,
+    "category": "Gift",
+    "stock": true,
+    "description": "A luxury wooden box featuring colorful roses and Dairy Milk chocolate bars",
+    "image": "/images/gift1.png"
+  },
+  {
+    "id": 12,
+    "name": "Pink Elegance Flower Box",
+    "price": 400,
+    "category": "Gift",
+    "stock": true,
+    "description": "Round pink velvet box filled with pink carnations and white roses",
+    "image": "/images/gift2.png"
+  },
+  {
+    "id": 13,
+    "name": "Pink Roses & Baby Breath",
+    "price": 350,
+    "category": "Gift",
+    "stock": true,
+    "description": "Classic bouquet of soft pink roses surrounded by a cloud of pink baby breath",
+    "image": "/images/gift3.png"
+  },
+{
+    "id": 14,
+    "name": "Midnight Red Roses",
+    "price": 500,
+    "category": "Love",
+    "stock": true,
+    "description": "Premium long-stemmed red roses wrapped in elegant black paper",
+    "image": "/images/gift4.png"
+  },
+{
+    "id": 15,
+    "name": "Teddy Bear Pink Bouquet",
+    "price": 380,
+    "category": "Gift",
+    "stock": true,
+    "description": "Mixed pink and magenta roses featuring a cute small teddy bear",
+    "image": "/images/gift5.png"
+  },
+  {
+    "id": 16,
+    "name": "Pure Red Passion",
+    "price": 320,
+    "category": "Love",
+    "stock": true,
+    "description": "Dense bouquet of red roses wrapped in translucent white paper",
+    "image": "/images/w1.png"
+  },
+  {
+    "id": 17,
+    "name": "Blush Ombré Spherical Bouquet",
+    "price": 600,
+    "category": "Birthday",
+    "stock": true,
+    "description": "Large spherical arrangement of white, pink, and deep rose ombré flowers",
+    "image": "/images/birthday5.png"
+  },
+  {
+    "id": 18,
+    "name": "Royal Lily & Rose Bouquet",
+    "price": 420,
+    "category": "Birthday",
+    "stock": true,
+    "description": "Sophisticated mix of pink lilies, roses, and carnations with premium wrapping",
+    "image": "/images/birthday3.png"
+  }
+]
