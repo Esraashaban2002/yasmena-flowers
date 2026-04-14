@@ -7,6 +7,7 @@ import { useEffect } from "react"
 import ProductDetail from "./pages/ProductDetail"
 import Cart from "./pages/Cart"
 import Checkout from "./pages/Checkout"
+import Footer from "./components/Footer"
 
 function App() {
   const { pathname } = useLocation();
@@ -26,6 +27,7 @@ function App() {
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/login" element={<h1>Login</h1>} />
       </Routes>
+      <Footer />
     </>
   )
 }

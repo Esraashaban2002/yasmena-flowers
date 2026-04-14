@@ -45,7 +45,7 @@ function Checkout() {
     <div className="container my-5 ">
       {!success ? (
         <div className="row">
-        <form onSubmit={handleSubmit} className="card p-4 shadow-lg col-6 mx-auto">
+        <form onSubmit={handleSubmit} className="card p-4 shadow-lg col-md-6 mx-auto">
           <h3 className="mb-4 text-center">Checkout 🛍️</h3>
 
           {error && <p className="text-danger">{error}</p>}

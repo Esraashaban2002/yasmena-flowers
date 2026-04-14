@@ -20,11 +20,11 @@ function ProductDetail() {
         <>
             <div className="container my-5">
                 <div className=" row gap-2">
-                    <div className="col-5 ">
+                    <div className="col-md-5 ">
                         <img src={product.image} className="card-img" alt={product.name} />
                     </div>
 
-                    <div className="col-5 my-auto ps-5 fs-3">
+                    <div className="col-md-5 my-auto ps-5 fs-3">
                         <h2 className="card-title">{product.name}</h2>
                         <p >Category : <span className="category">{product.category}</span> </p>
                         <p >Price :<span className="price">{product.price}EGP</span></p>

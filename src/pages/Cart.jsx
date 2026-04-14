@@ -42,13 +42,13 @@ function Cart() {
                 <div className="container my-5">
                     <div className="row">
 
-                        <div className="col-8">
+                        <div className="col-md-8">
                             {cartItems.map((item) => (
                                 <CartItem key={item.id} product={item} />
                             ))}
                         </div>
 
-                        <div className="col-4">
+                        <div className="col-md-4">
                             <div className="card p-5 shadow ">
                                 <h4 className='category'>Cart Summary</h4>
 

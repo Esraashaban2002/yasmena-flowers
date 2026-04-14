@@ -14,3 +14,26 @@
     transform: translate(-50% , -50%);
     color: #000;
 }
+
+.footer .brand {
+  color: #b4002d;
+  font-weight: bold;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: var(--primary);
+  transition: 0.3s;
+}
+
+.footer-link:hover ,
+.social-icons .i:hover , 
+.copy-right  {
+  color: #b4002d;
+}
+
+.social-icons .i {
+  font-size: 28px;
+  cursor: pointer;
+  transition: 0.3s;
+}
