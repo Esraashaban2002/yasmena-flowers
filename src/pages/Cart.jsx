@@ -7,12 +7,14 @@ import { FaCartShopping } from 'react-icons/fa6';
 
 
 function Cart() {
-    const { cartItems, cartCount } = useCart();
+    const { cartItems, cartCount , total} = useCart();
     const navigate = useNavigate()
-    const total = cartItems.reduce((acc, item) => {
-        return acc + item.price * item.quantity;
-    }, 0)
-    if (cartItems == '') {
+    
+    // const total = cartItems.reduce((acc, item) => {
+    //     return acc + item.price * item.quantity;
+    // }, 0)
+
+    if (cartItems.length === 0) {
         return (
             <>
                 <div className="container my-5">
