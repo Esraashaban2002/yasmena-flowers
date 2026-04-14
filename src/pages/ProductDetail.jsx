@@ -21,7 +21,7 @@ function ProductDetail() {
             <div className="container my-5">
                 <div className=" row gap-2">
                     <div className="col-md-5 ">
-                        <img src={product.image} className="card-img" alt={product.name} />
+                        <img src={import.meta.env.BASE_URL + product.image} className="card-img" alt={product.name} />
                     </div>
 
                     <div className="col-md-5 my-auto ps-5 fs-3">
