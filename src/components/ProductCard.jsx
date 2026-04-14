@@ -5,7 +5,7 @@ function ProductCard({product}) {
     return (
         <>
             <div className="card product-card h-100">
-              <img src={product.image} className="card-img-top" alt={product.name} />
+              <img src={import.meta.env.BASE_URL + product.image} className="card-img-top" alt={product.name} />
 
               <div className="card-body text-center">
                 <h5 className="card-title">{product.name}</h5>
