@@ -20,9 +20,9 @@ function Footer() {
           <div className="col-md-4 mb-4">
             <h5>Quick Links</h5>
             <ul className="list-unstyled">
-              <li><a href="/" className="footer-link">Home</a></li>
-              <li><a href="/products" className="footer-link">Products</a></li>
-              <li><a href="/cart" className="footer-link">Cart</a></li>
+              <li><Link to={'/'} className="footer-link">Home</Link></li>
+              <li><Link to={'/products'} className="footer-link">Products</Link></li>
+              <li><Link to={'/cart'} className="footer-link">Cart</Link></li>
             </ul>
           </div>
 
