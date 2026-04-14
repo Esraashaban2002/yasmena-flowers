@@ -9,7 +9,7 @@ function CartItem({ product }) {
             <div className="card shadow mb-3">
                 <div className="row ">
                 <div className="col-6">
-                    <img src={product.image} className="card-img-top" height={'250px'} alt={product.name} />
+                    <img src={import.meta.env.BASE_URL + product.image} className="card-img-top" height={'250px'} alt={product.name} />
                 </div>
 
                 <div className="col-6 my-auto">
