@@ -30,7 +30,7 @@ function ProductDetail() {
                         <p >Price :<span className="price">{product.price}EGP</span></p>
                         <p className="card-text">{product.description}</p>
 
-                        <input type="number" name="number" value={quantity} min={1} className='w-25' onChange={getQuantity} />
+                        <input type="number" name="number" value={quantity >0 ?quantity : 1} min={1} className='w-25' onChange={getQuantity} />
                         <button className="btn add-btn mx-5" onClick={addToCart}>
                             Add To Cart
                         </button>
