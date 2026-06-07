@@ -10,7 +10,7 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/yasmena-flowers">
+    <BrowserRouter>
       <LanguageProvider>
         <CartProvider>
           <App />
