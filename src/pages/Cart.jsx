@@ -42,7 +42,7 @@ function Cart() {
             <h4 className='category'>{t('cart_summary')}</h4>
             {cartItems.map((item) => (
               <h5 key={item.id}>
-                {item.name} x <span className='price'>{item.quantity}</span>
+                {isAr && item.name_ar ? item.name_ar : item.name} x <span className='price'>{item.quantity}</span>
               </h5>
             ))}
             <hr />

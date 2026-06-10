@@ -1,29 +1,30 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useLang } from '../context/LanguageContext'
 
-function ProductCard({product}) {
-    return (
-        <>
-            <div className="card product-card h-100">
-              <img src={product.image} className="card-img-top" alt={product.name} />
+function ProductCard({ product }) {
+  const { t, isAr } = useLang()
 
-              <div className="card-body text-center">
-                <h5 className="card-title">{product.name}</h5>
-                <p className="category">{product.category}</p>
-                <p className="price">{product.price} EGP</p>
-                {/* <p className="card-text">{product.description}</p> */}
+  const displayName = isAr && product.name_ar ? product.name_ar : product.name
+  const displayCategory = isAr && product.category_ar ? product.category_ar : product.category
 
-                {/* <button className="btn add-btn">
-                  Add To Cart
-                </button> */}
-                <Link className="btn add-btn" to={`/product/${product.id}`}>
-  View Details
-</Link>
+  return (
+    <>
+      <div className="card product-card h-100">
+        <img src={product.image} className="card-img-top" alt={displayName} />
 
-              </div>
-            </div>
-        </>
-    )
+        <div className="card-body text-center">
+          <h5 className="card-title">{displayName}</h5>
+          <p className="category">{displayCategory}</p>
+          <p className="price">{product.price} {t('card_egp')}</p>
+
+          <Link className="btn add-btn" to={`/product/${product.id}`}>
+            {t('card_view')}
+          </Link>
+        </div>
+      </div>
+    </>
+  )
 }
 
 export default ProductCard

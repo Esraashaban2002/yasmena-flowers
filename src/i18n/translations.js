@@ -28,6 +28,7 @@ const translations = {
     detail_category: "Category",
     detail_price: "Price",
     detail_add_cart: "Add To Cart",
+    
 
     // Cart
     cart_empty_title: "Your cart is empty 🛒",
@@ -37,6 +38,9 @@ const translations = {
     cart_total_items: "Total Items",
     cart_total_price: "Total Price",
     cart_checkout: "Checkout",
+
+    detail_quantity: "Quantity",
+detail_remove: "Remove",
 
     // Checkout
     checkout_title: "Checkout 🛍️",
@@ -100,25 +104,29 @@ const translations = {
     footer_rights: "All rights reserved.",
   },
 
+ // ===================================================
+// الجزء المعدّل فقط — ar object داخل translations.js
+// ===================================================
+
   ar: {
     // Navbar
     nav_logo: "ياسمينا فلاورز",
     nav_home: "الرئيسية",
     nav_products: "المنتجات",
-    nav_about: "عن البراند",
+    nav_about: "من نحن",           // ✏️ كانت "عن البراند" — أوضح وأكثر شيوعاً
     nav_contact: "تواصل معنا",
     nav_cart: "السلة",
 
     // Home
     home_hero_title: "أهلاً بك في ياسمينا فلاورز",
-    home_hero_subtitle: "حيث تتحدث الزهور بلغة الجمال",
-    home_hero_btn: "تسوق الآن",
+    home_hero_subtitle: "حيث تتكلّم الزهور بلغة الجمال",  // ✏️ "تتحدث" → "تتكلّم" أكثر شاعرية
+    home_hero_btn: "تسوّقي الآن",                          // ✏️ أضفنا التأنيث لأن الجمهور نسائي غالباً
     home_section_title: "زهورنا 🌸",
     home_show_more: "عرض المزيد",
 
     // Products
     products_title: "زهورنا 🌸",
-    products_search: "ابحث بالاسم",
+    products_search: "ابحثي بالاسم",    // ✏️ تأنيث
     products_all: "الكل",
 
     // Product Card
@@ -128,76 +136,78 @@ const translations = {
     // Product Detail
     detail_category: "الفئة",
     detail_price: "السعر",
-    detail_add_cart: "أضف للسلة",
+    detail_add_cart: "أضيفي للسلة",    // ✏️ تأنيث
 
     // Cart
-    cart_empty_title: "سلتك فارغة 🛒",
-    cart_empty_sub: "لم تضف أي زهور بعد 🌸",
+    cart_empty_title: "سلّتك فارغة 🛒",
+    cart_empty_sub: "لم تضيفي أي زهور بعد 🌸",    // ✏️ تأنيث
     cart_back_products: "العودة للمنتجات",
-    cart_summary: "ملخص السلة",
-    cart_total_items: "إجمالي المنتجات",
-    cart_total_price: "إجمالي السعر",
+    cart_summary: "ملخّص السلة",
+    cart_total_items: "عدد المنتجات",              // ✏️ "إجمالي" → "عدد" أوضح
+    cart_total_price: "الإجمالي",
     cart_checkout: "إتمام الطلب",
+    detail_quantity: "الكمية",
+detail_remove: "حذف",
 
     // Checkout
     checkout_title: "إتمام الطلب 🛍️",
     checkout_name: "الاسم الكامل",
     checkout_email: "البريد الإلكتروني",
-    checkout_address: "عنوان الشحن",
+    checkout_address: "عنوان التوصيل",             // ✏️ "الشحن" → "التوصيل" أقرب للمصري
     checkout_place_order: "تأكيد الطلب",
-    checkout_fill_all: "من فضلك اكمل جميع الحقول",
+    checkout_fill_all: "من فضلك أكملي جميع الحقول",   // ✏️ تصحيح همزة + تأنيث
     checkout_invalid_email: "البريد الإلكتروني غير صحيح",
     checkout_success_title: "تم الطلب بنجاح! ✅",
-    checkout_success_sub: "شكراً لك على طلبك 🌸",
+    checkout_success_sub: "شكراً لك، سعداء بخدمتك 🌸",  // ✏️ أكثر دفئاً
     checkout_back_home: "العودة للرئيسية",
 
     // About
     about_hero_title: "قصتنا 🌸",
-    about_hero_sub: "حيث تحكي كل زهرة قصة حب وجمال",
-    about_story_heading: "كيف بدأت القصة",
-    about_story_p1: "وُلدت ياسمينا فلاورز من شغف عميق بجمال الطبيعة وقوة الزهور في التعبير عما تعجز عنه الكلمات. بدأت رحلتنا بحلم بسيط: أن نجلب الفرح والمحبة والدفء إلى كل باب من خلال تنسيقات زهرية مصنوعة بعناية فائقة.",
-    about_story_p2: "كل باقة نصنعها هي أكثر من مجرد زهور — إنها عاطفة، وذكرى، ولحظة خالدة في الزمن. نؤمن بأن كل مناسبة تستحق شيئاً استثنائياً، ونضع قلوبنا في كل تنسيق.",
+    about_hero_sub: "كل زهرة تحمل قصة حب وجمال",         // ✏️ أكثر تدفقاً
+    about_story_heading: "كيف بدأت الحكاية",              // ✏️ "الحكاية" أجمل من "القصة" هنا
+    about_story_p1: "وُلدت ياسمينا فلاورز من شغف حقيقي بجمال الطبيعة وسحر الزهور التي تعبّر عمّا تعجز عنه الكلمات. بدأت رحلتنا بحلم بسيط: أن نُدخل الفرح والدفء والحب إلى كل بيت من خلال تنسيقات زهرية تُصنع بعناية وحب.",
+    about_story_p2: "كل باقة نصنعها هي أكثر من مجرد زهور — هي مشاعر، وذكريات، ولحظات لا تُنسى. نؤمن بأن كل مناسبة تستحق شيئاً يلمس القلب، ونضع روحنا في كل تفصيلة.",  // ✏️ صياغة أكثر إحساساً
     about_vision_title: "رؤيتنا",
-    about_vision_text: "أن نكون العلامة الزهرية الأكثر ثقة وحباً، حيث تكون كل زهرة رمزاً للتميز والمشاعر الصادقة.",
+    about_vision_text: "أن نكون العلامة الزهرية الأكثر ثقة ومحبة، حيث تكون كل زهرة تعبيراً عن التميّز والمشاعر الصادقة.",
     about_mission_title: "رسالتنا",
-    about_mission_text: "صنع لحظات لا تُنسى من خلال زهور طازجة عالية الجودة تتحدث بلغة الجمال والحب.",
+    about_mission_text: "صُنع لحظات لا تُنسى بزهور طازجة وفاخرة تتكلّم بلغة الجمال والحب.",   // ✏️ أخصر وأقوى
     about_values_title: "قيمنا",
-    about_values_text: "الجودة والشغف والاهتمام الحقيقي في كل تنسيق. نتعامل مع كل طلب كأنه هدية لشخص نحبه.",
-    about_why_title: "لماذا ياسمينا؟ 💫",
-    about_why_1_title: "طازجة يومياً",
-    about_why_1_desc: "جميع زهورنا يتم الحصول عليها طازجة كل يوم لضمان أقصى درجات الجمال والنضارة.",
+    about_values_text: "الجودة والشغف والاهتمام الحقيقي في كل تنسيق — كل طلب نتعامل معه كأنه هدية لأعز الناس.",
+    about_why_title: "ليه ياسمينا؟ 💫",               // ✏️ "لماذا" → "ليه" أكثر قرباً وعامية محببة
+    about_why_1_title: "طازجة كل يوم",
+    about_why_1_desc: "نختار زهورنا طازجة يومياً لتصلك بأقصى درجات الجمال والنضارة.",
     about_why_2_title: "تصاميم يدوية",
-    about_why_2_desc: "كل باقة مصنوعة يدوياً باهتمام فني بالتفاصيل ولمسة شخصية مميزة.",
+    about_why_2_desc: "كل باقة تُنسَّق يدوياً باهتمام فني دقيق ولمسة شخصية مميزة.",
     about_why_3_title: "توصيل سريع",
-    about_why_3_desc: "نوصل حبك في الوقت المناسب دائماً. توصيل في نفس اليوم متاح لمعظم الطلبات.",
+    about_why_3_desc: "نوصّل حبّك في الوقت المحدد دائماً، مع إمكانية التوصيل في نفس اليوم لمعظم الطلبات.",
     about_why_4_title: "مصنوع بحب",
-    about_why_4_desc: "كل تنسيق يحمل لمستنا المميزة — مصنوع بشغف، ملفوف باهتمام.",
+    about_why_4_desc: "كل تنسيق يحمل بصمتنا الخاصة — يُصنع بشغف ويُلفّ باهتمام.",
 
     // Contact
-    contact_hero_title: "تواصل معنا 🌸",
-    contact_hero_sub: "يسعدنا سماعك",
-    contact_info_heading: "معلومات التواصل",
+    contact_hero_title: "تواصلي معنا 🌸",              // ✏️ تأنيث
+    contact_hero_sub: "يسعدنا التواصل معك دائماً",      // ✏️ أفضل من "يسعدنا سماعك"
+    contact_info_heading: "بيانات التواصل",
     contact_phone: "الهاتف",
     contact_email_label: "البريد الإلكتروني",
-    contact_location: "الموقع",
-    contact_follow: "تابعنا",
-    contact_form_heading: "أرسل لنا رسالة",
+    contact_location: "موقعنا",
+    contact_follow: "تابعينا",                          // ✏️ تأنيث
+    contact_form_heading: "ابعتيلنا رسالة",             // ✏️ عامية محببة + تأنيث
     contact_form_name: "اسمك",
     contact_form_email: "البريد الإلكتروني",
     contact_form_phone: "رقم الهاتف",
-    contact_form_message: "الرسالة",
+    contact_form_message: "رسالتك",
     contact_form_placeholder_name: "ياسمينا",
     contact_form_placeholder_email: "hello@example.com",
     contact_form_placeholder_phone: "+20 100 000 0000",
-    contact_form_placeholder_msg: "أخبرنا كيف يمكننا مساعدتك...",
+    contact_form_placeholder_msg: "قوليلنا إزاي نقدر نساعدك...",   // ✏️ عامية مصرية محببة
     contact_form_submit: "إرسال الرسالة 💌",
-    contact_success: "🌸 شكراً لك! سنرد عليك في أقرب وقت.",
+    contact_success: "🌸 شكراً لك! هنرد عليك في أقرب وقت.",       // ✏️ عامية مصرية
 
     // Footer
-    footer_tagline: "حيث تتحدث الزهور بلغة الجمال.",
+    footer_tagline: "حيث تتكلّم الزهور بلغة الجمال.",
     footer_quick_links: "روابط سريعة",
     footer_contact: "تواصل",
-    footer_follow: "تابعنا",
+    footer_follow: "تابعينا",
     footer_rights: "جميع الحقوق محفوظة.",
   },
 };

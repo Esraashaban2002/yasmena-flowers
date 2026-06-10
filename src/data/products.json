@@ -1,164 +1,218 @@
- [
-{
+[
+  {
     "id": 1,
     "name": "Red Rose Bouquet",
+    "name_ar": "باقة الورد الأحمر",
     "price": 250,
     "category": "Love",
+    "category_ar": "حب",
     "stock": true,
     "description": "Luxurious large bouquet of deep red roses with eucalyptus leaves",
+    "description_ar": "باقة فاخرة من الورد الأحمر الداكن مع أوراق الإيكاليبتوس",
     "image": "/images/Red Rose Bouquet.jpg"
   },
   {
     "id": 2,
     "name": "Classic Red Roses",
+    "name_ar": "ورد أحمر كلاسيك",
     "price": 300,
     "category": "Love",
+    "category_ar": "حب",
     "stock": true,
     "description": "Elegant round bouquet of bright red roses tied with a red satin ribbon",
+    "description_ar": "باقة دائرية أنيقة من الورد الأحمر المربوطة بشريط ساتان أحمر",
     "image": "/images/Red Bouquet.jpg"
   },
   {
     "id": 3,
     "name": "Heart-shaped Love",
+    "name_ar": "قلب الحب",
     "price": 200,
     "category": "Love",
+    "category_ar": "حب",
     "stock": true,
     "description": "Heart-shaped arrangement of red and white roses with baby breath",
+    "description_ar": "تنسيق على شكل قلب من ورد أحمر وأبيض مع زهور الجبسوفيلا",
     "image": "/images/Red3.png"
   },
   {
     "id": 4,
     "name": "Happy Birthday Rose",
+    "name_ar": "باقة عيد الميلاد",
     "price": 220,
     "category": "Birthday",
+    "category_ar": "عيد ميلاد",
     "stock": true,
     "description": "Soft pink roses with a 'Happy Birthday' card and elegant pink wrapping",
+    "description_ar": "ورد وردي ناعم مع كارت تهنئة ولفة وردية أنيقة",
     "image": "/images/birthday1.png"
   },
   {
     "id": 5,
     "name": "Purple Dream Bouquet",
+    "name_ar": "باقة الحلم البنفسجي",
     "price": 280,
     "category": "Birthday",
+    "category_ar": "عيد ميلاد",
     "stock": true,
     "description": "Vibrant mix of purple carnations and pink roses in purple wrapping",
+    "description_ar": "مزيج زاهي من القرنفل البنفسجي والورد الوردي في لفة بنفسجية",
     "image": "/images/birthday2.png"
   },
   {
     "id": 6,
     "name": "Ombré Roses & Pearls",
+    "name_ar": "ورد أومبريه واللؤلؤ",
     "price": 350,
     "category": "Birthday",
+    "category_ar": "عيد ميلاد",
     "stock": true,
     "description": "Stunning ombré transition from deep pink to white roses adorned with pearls",
+    "description_ar": "تدرج ساحر من الوردي الغامق إلى الأبيض مزيّن باللؤلؤ",
     "image": "/images/Ombré Roses Pearl Bouquet.png"
   },
   {
     "id": 7,
     "name": "Pure White Bridal",
+    "name_ar": "باقة العروس البيضاء",
     "price": 300,
     "category": "Wedding",
+    "category_ar": "زفاف",
     "stock": true,
     "description": "Classic bridal bouquet of pure white roses with greenery",
+    "description_ar": "باقة عروس كلاسيكية من الورد الأبيض الناصع مع الأوراق الخضراء",
     "image": "/images/Wedding1.jpg"
   },
   {
     "id": 8,
     "name": "Ivory Tulip Elegance",
+    "name_ar": "أناقة التيوليب العاجي",
     "price": 320,
     "category": "Wedding",
+    "category_ar": "زفاف",
     "stock": true,
     "description": "Sophisticated bouquet of white tulips with crystal bead accents",
+    "description_ar": "باقة راقية من التيوليب الأبيض مزيّنة بخرز كريستال",
     "image": "/images/Wedding2.jpg"
   },
   {
     "id": 9,
     "name": "Soft Pink Wedding",
+    "name_ar": "زفاف الوردي الناعم",
     "price": 290,
     "category": "Wedding",
+    "category_ar": "زفاف",
     "stock": true,
     "description": "Gentle pink roses with baby breath and long white silk ribbons",
+    "description_ar": "ورد وردي ناعم مع جبسوفيلا وأشرطة حرير بيضاء طويلة",
     "image": "/images/Wedding3.jpg"
   },
-{
+  {
     "id": 10,
     "name": "Pearls & Ivory Bridal Bouquet",
+    "name_ar": "باقة اللؤلؤ والعاج",
     "price": 550,
     "category": "Wedding",
+    "category_ar": "زفاف",
     "stock": true,
     "description": "Exquisite bridal bouquet of white and champagne roses adorned with pearls",
+    "description_ar": "باقة عروس فاخرة من الورد الأبيض والشامبانيا مزيّنة باللؤلؤ",
     "image": "/images/Wedding4.jpg"
   },
   {
     "id": 11,
     "name": "Chocolate & Roses Box",
+    "name_ar": "بوكس شوكولاتة وورد",
     "price": 450,
     "category": "Gift",
+    "category_ar": "هدية",
     "stock": true,
     "description": "A luxury wooden box featuring colorful roses and Dairy Milk chocolate bars",
+    "description_ar": "بوكس خشبي فاخر بورد ملوّن وشوكولاتة ديري ميلك",
     "image": "/images/gift1.png"
   },
   {
     "id": 12,
     "name": "Pink Elegance Flower Box",
+    "name_ar": "بوكس الأناقة الوردية",
     "price": 400,
     "category": "Gift",
+    "category_ar": "هدية",
     "stock": true,
     "description": "Round pink velvet box filled with pink carnations and white roses",
+    "description_ar": "بوكس مخمل وردي دائري مليء بالقرنفل الوردي والورد الأبيض",
     "image": "/images/gift2.png"
   },
   {
     "id": 13,
     "name": "Pink Roses & Baby Breath",
+    "name_ar": "ورد وردي وجبسوفيلا",
     "price": 350,
     "category": "Gift",
+    "category_ar": "هدية",
     "stock": true,
     "description": "Classic bouquet of soft pink roses surrounded by a cloud of pink baby breath",
+    "description_ar": "باقة كلاسيكية من الورد الوردي الناعم وسط سحابة من الجبسوفيلا الوردية",
     "image": "/images/gift3.png"
   },
-{
+  {
     "id": 14,
     "name": "Midnight Red Roses",
+    "name_ar": "ورد أحمر منتصف الليل",
     "price": 500,
     "category": "Love",
+    "category_ar": "حب",
     "stock": true,
     "description": "Premium long-stemmed red roses wrapped in elegant black paper",
+    "description_ar": "ورد أحمر ساق طويلة فاخر ملفوف بورق أسود أنيق",
     "image": "/images/gift4.png"
   },
-{
+  {
     "id": 15,
     "name": "Teddy Bear Pink Bouquet",
+    "name_ar": "باقة الدبدوب الوردية",
     "price": 380,
     "category": "Gift",
+    "category_ar": "هدية",
     "stock": true,
     "description": "Mixed pink and magenta roses featuring a cute small teddy bear",
+    "description_ar": "مزيج من ورد وردي وفوشيا مع دبدوب صغير لطيف",
     "image": "/images/gift5.png"
   },
   {
     "id": 16,
     "name": "Pure Red Passion",
+    "name_ar": "الشغف الأحمر",
     "price": 320,
     "category": "Love",
+    "category_ar": "حب",
     "stock": true,
     "description": "Dense bouquet of red roses wrapped in translucent white paper",
+    "description_ar": "باقة كثيفة من الورد الأحمر ملفوفة بورق أبيض شفاف",
     "image": "/images/w1.png"
   },
   {
     "id": 17,
     "name": "Blush Ombré Spherical Bouquet",
+    "name_ar": "باقة كروية أومبريه",
     "price": 600,
     "category": "Birthday",
+    "category_ar": "عيد ميلاد",
     "stock": true,
     "description": "Large spherical arrangement of white, pink, and deep rose ombré flowers",
+    "description_ar": "تنسيق كروي ضخم بتدرج من الأبيض إلى الوردي الغامق",
     "image": "/images/birthday5.png"
   },
   {
     "id": 18,
     "name": "Royal Lily & Rose Bouquet",
+    "name_ar": "باقة الليلي والورد الملكية",
     "price": 420,
     "category": "Birthday",
+    "category_ar": "عيد ميلاد",
     "stock": true,
     "description": "Sophisticated mix of pink lilies, roses, and carnations with premium wrapping",
+    "description_ar": "مزيج راقٍ من الليلي الوردي والورد والقرنفل في لفة فاخرة",
     "image": "/images/birthday3.png"
   }
 ]
